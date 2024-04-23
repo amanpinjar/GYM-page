@@ -1,0 +1,13 @@
+.exercise-image img{
+    width: 200px;
+}
+
+.exercise{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+}
+
+.exercise-card{
+    width: 50%;
+}
