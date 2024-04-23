@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -18,4 +19,18 @@ header {
 }
 h1, h2, p {
     margin-bottom: 20px;
+=======
+.exercise-image img{
+    width: 200px;
+}
+
+.exercise{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 20px;
+}
+
+.exercise-card{
+    width: 50%;
+>>>>>>> 248c2b2afaeb6e55f0dd85e2ef21c6a4cdf2de03
 }
