@@ -2,6 +2,9 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 100vh;
     background: url(https://t3.ftcdn.net/jpg/06/06/54/92/360_F_606549277_BMzgu4QoNfqHDkmUgngJrFHuxZXvkS7d.jpg);
 }
 .main {
@@ -26,7 +29,11 @@ h1, h2, p {
 
 .exercise-image img{
     width: 100%;
-    background-color: black;
+    
+    background-color: black; /* This won't be applied to the image, only to the area around it */
+    background-repeat: no-repeat;
+    
+
 }
 
 .exercise{
@@ -40,9 +47,9 @@ h1, h2, p {
 
 .exercise-card{
     width: 50%;
-    border: 1px solid black;
+    border: 1px solid rgb(33, 33, 33);
     border-radius: 5px;
-}
+}gi
  .exercise-details p{
     text-align: center;
     color: #fff;
