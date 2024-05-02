@@ -4,6 +4,10 @@ body {
     padding: 0;
     background: url(https://t3.ftcdn.net/jpg/06/06/54/92/360_F_606549277_BMzgu4QoNfqHDkmUgngJrFHuxZXvkS7d.jpg);
 }
+.main {
+    width: 100%;
+    
+}
 header {
     background-color: #333;
     color: #fff;
@@ -26,9 +30,12 @@ h1, h2, p {
 }
 
 .exercise{
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-   margin: 10px 20px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem 3rem;
+    gap: 2rem;
+    height: calc(100vh - 100px);
 }
 
 .exercise-card{
@@ -54,7 +61,9 @@ h1, h2, p {
 .container {
     max-width: 1300px;
     margin: 20px auto;
-    padding: 20px;
+    margin-bottom: 4rem;
+    padding: 1.5rem 2rem;
+ 
     background-color: #fff;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
@@ -74,10 +83,10 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="tel"] {
-    width: 100%;
+    width: 60%;
     padding: 10px;
     margin-bottom: 20px;
-    border: 1px solid #ccc;
+    border: 1px solid #bbbbbb;
     border-radius: 5px;
 }
 input[type="submit"] {
@@ -105,28 +114,43 @@ input[type="submit"]:hover {
 }
 
   
-  .navbar {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+  nav{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 100px;
+    position: absolute;
+    top: 0;
+    padding: 1rem 2rem;
     background-color: #333; 
   }
-  
-  .navbar li {
-    float: right;
+  nav h3{
+    font-size: 2rem;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+ nav ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    gap: 2rem;
   }
   
-  .navbar li a {
+  ul li {
+    float: right;
+    list-style: none;
+  }
+  
+  li a {
     display: block;
     color: white;
-    text-align: center;
-    padding: 14px 20px;
     text-decoration: none;
   }
   
   .navbar li a:hover {
-    background-color: #ddd; /
+    background-color: #ddd; 
     color: black;
   }
   
