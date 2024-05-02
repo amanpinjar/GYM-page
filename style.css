@@ -153,4 +153,17 @@ input[type="submit"]:hover {
     background-color: #ddd; 
     color: black;
   }
-  
+  #birthdate{
+    width: 800px;
+    height: 40px;
+}
+
+#gender{
+    width: 800px;
+    height: 40px;
+
+}
+#membership{
+    width: 800px;
+    height: 40px;
+}
